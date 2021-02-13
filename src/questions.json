@@ -1,0 +1,103 @@
+{
+    "1": {
+        "text": "Up-to-date software with the latest features is much better than old but secure and stable software",
+        "x_multiplier": -1,
+        "y_multiplier": -1
+    },
+    "2": {
+        "text": "I prefer a free but limited software than having to pay for a complete and functional software",
+        "x_multiplier": -1,
+        "y_multiplier": 0
+    },
+    "3": {
+        "text": "Proprietary software encourages competition, development and evolution of technologies",
+        "x_multiplier": 1,
+        "y_multiplier": -1
+    },
+    "4": {
+        "text": "Hardware manufacturers should always make their drivers and firmware open source",
+        "x_multiplier": -1,
+        "y_multiplier": 0
+    },
+    "5": {
+        "text": "An exclusive software is much better than a cross-platform software that requires compromises",
+        "x_multiplier": 1,
+        "y_multiplier": 0
+    },
+    "6": {
+        "text": "The use of unlicensed proprietary software should be strongly punished",
+        "x_multiplier": 1,
+        "y_multiplier": 1
+    },
+    "7": {
+        "text": "The release of any software online should be regulated",
+        "x_multiplier": 0,
+        "y_multiplier": 1
+    },
+    "8": {
+        "text": "I am in favor of Google's monopoly on the western Internet: it offers convenient, useful and free services",
+        "x_multiplier": 1,
+        "y_multiplier": 0
+    },
+    "9": {
+        "text": "My personal data is fundamental and inviolable",
+        "x_multiplier": 0,
+        "y_multiplier": -1
+    },
+    "10": {
+        "text": "The regulations on the use of personal data make it difficult to develop online services, favoring the multinationals of the web",
+        "x_multiplier": -1,
+        "y_multiplier": -1
+    },
+    "11": {
+        "text": "Online service providers should pay taxes in the countries where their services are used",
+        "x_multiplier": -1,
+        "y_multiplier": 0
+    },
+    "12": {
+        "text": "Internet is a completely free place, where anyone can express their thoughts, without any limitation",
+        "x_multiplier": 0,
+        "y_multiplier": -1
+    },
+    "13": {
+        "text": "I agree to sacrifice some of my freedom in order to make internet a safer place",
+        "x_multiplier": 0,
+        "y_multiplier": 1
+    },
+    "14": {
+        "text": "The programmers represent the proletariat of the new millennium",
+        "x_multiplier": -1,
+        "y_multiplier": 1
+    },
+    "15": {
+        "text": "My country's government should control people with face recognition systems, in order to reduce crime",
+        "x_multiplier": 0,
+        "y_multiplier": 1
+    },
+    "16": {
+        "text": "We must pay attention to technological evolution: a dystopian future is not science fiction",
+        "x_multiplier": -1,
+        "y_multiplier": 1
+    },
+    "17": {
+        "text": "Overall, Internet is made up of people who have an identity and must abide by the law",
+        "x_multiplier": 0,
+        "y_multiplier": 1
+    },
+    "18": {
+        "text": "eCommerce websites heavily damage local economies. Their monopoly must be regulated",
+        "x_multiplier": -1,
+        "y_multiplier": 1
+    },
+    "19": {
+        "text": "Governments must safeguard the ideologies and traditions of their nations, by censoring websites and social networks",
+        "x_multiplier": 1,
+        "y_multiplier": 1
+    },
+    "20": {
+        "text": "We must invest in education in order to inform and raise awareness of digital citizenship",
+        "x_multiplier": -1,
+        "y_multiplier": -1
+    }
+    
+}

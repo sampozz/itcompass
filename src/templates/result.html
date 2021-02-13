@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+    <h2 class="question-title">Congratulations! Here is your result</h2>
+
+    <div class="result">
+        <div class="red-dot" 
+            style="transform: translate(calc(-50% + {{ data['x_axis'] * 10 }}px), calc(-50% + {{ data['y_axis'] * -10 }}px));">
+        </div>
+        <img src="{{ url_for('static', filename='img/compass.png') }}" 
+            class="compass-img" 
+            alt="compass">
+    </div>
+    
+    <div class="axis">
+        Auth-lib axis: {{ data['y_axis'] }}<br>
+        Left-right axis: {{ data['x_axis'] }}
+    </div>
+
+    <div style="margin: 2em 0 1em 0; font-size: 1.2rem;">Did you enjoy the test? Share it with your friends!</div>
+    <div class="addthis_inline_share_toolbox_yr1y"></div>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6027d7f5471d7032"></script>
+
+
+{% endblock %}
