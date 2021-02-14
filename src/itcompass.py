@@ -71,6 +71,10 @@ def quiz(q):
 def result():
     if not 'x_axis' in session:
         return redirect(url_for('index'))
+    if session['x_axis'] > 24:
+        session['x_axis'] = 24
+    if session['y_axis'] > 24:
+        session['y_axis'] = 24
     return render_template('result.html', data=session)
 
 

@@ -7,7 +7,7 @@
 
     <div class="result">
         <div class="red-dot" 
-            style="transform: translate(calc(-50% + {{ data['x_axis'] * 10 }}px), calc(-50% + {{ data['y_axis'] * -10 }}px));">
+            style="transform: translate(calc(-50% + {{ data['x_axis'] * 7.5 }}px), calc(-50% + {{ data['y_axis'] * -7.5 }}px));">
         </div>
         <img src="{{ url_for('static', filename='img/compass.png') }}" 
             class="compass-img" 
@@ -23,5 +23,35 @@
     <div class="addthis_inline_share_toolbox_yr1y"></div>
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6027d7f5471d7032"></script>
 
+    <br><br><h2 class="question-title">And here is a brief explanation</h2>
 
+    <div class="auth-left">
+        <b>Auth-left:</b> You do not like the big companies. Wealth must be owned by the government 
+        instead of a single rich guy. Work is a fundamental value that must be safeguarded. 
+        The evolution of technologies is not your priority, as it could lead to social issues.
+    </div>
+    <div class="auth-right">
+        <b>Auth-right:</b> The idea of upholding strict social hierarchies remains in the Auth. 
+        Also, you like the rules, everyone should be controlled by the government to 
+        maintain law and order. People should always defend their own nation from external threats. 
+    </div>
+    <div class="lib-left">
+        <b>Lib-left:</b> You believe strongly in worker’s rights, as well as social freedom. 
+        The big companies of the web represent a threat, because they own every 
+        information of every human being. You always search for innovation, as 
+        the totally digital world is your final goal, whatever it takes. 
+    </div>
+    <div class="lib-right">
+        <b>Lib-right:</b> The government should be decentralized and aggressive, 
+        unrestrained capitalism should determine social hierarchy. Individual 
+        liberty and self-conservation lie at the core of the libertarian right. 
+    </div>
+
+    <div class="disclaimer">
+        I made this website during my free time as a simple educational project. 
+        The source code is available on my <a href="https://github.com/sampozz/itcompass">GitHub profile</a>. 
+        This test is not based on any scientific study and the results do not 
+        strictly represent the reality. Please, do not use this website as a 
+        penetration testing target: you will just waste my time and will not find anything interesting.
+    </div>
 {% endblock %}

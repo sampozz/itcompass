@@ -3,8 +3,25 @@
 {% block content %}
 
 <h2 class="index-title">Click the button below to start the quiz</h2>
+<div class="intro">
+    The IT Compass Test is inspired by the now famous <a href="https://en.wikipedia.org/wiki/The_Political_Compass">
+    Political Compass test</a>, a great source of criticisms and memes. You 
+    will simply have to indicate (freely and according to your ideas) how 
+    much you agree with 20 propositions about the worlds of information 
+    technology, software, networks, internet, social networks, and the 
+    latest technologies. There are not right or wrong answers. At the 
+    end of the test, you will find the result based on your answers and 
+    some guidelines to understand it.
+</div>
 <form method="post">
     <input class="start-btn" type="submit" value="Start">
 </form>
+<div class="disclaimer">
+    I made this website during my free time as a simple educational project. 
+    The source code is available on my <a href="https://github.com/sampozz/itcompass">GitHub profile</a>. 
+    This test is not based on any scientific study and the results do not 
+    strictly represent the reality. Please, do not use this website as a 
+    penetration testing target: you will just waste my time and will not find anything interesting.
+</div>
 
 {% endblock %}
