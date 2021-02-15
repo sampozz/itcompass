@@ -46,6 +46,18 @@ a, a:visited {
     margin: 3em 3em 0 3em;
 }
 
+@media screen and (max-width: 600px) {
+    .intro {
+        font-size: 1.3rem;
+        margin: -1em 1em 2em 1em;
+    }
+    
+    .disclaimer {
+        font-size: 1rem;
+        margin: 3em 2em 0 2em;
+    }
+}
+
 .start-btn {
     background-color: #1E88E5;
     font-size: 1.5rem;
@@ -107,7 +119,7 @@ a, a:visited {
 
 @media screen and (max-width: 1220px) {
     .cntr {
-        width: 40%;
+        width: 50%;
     }
     .radio {
         margin-right: 1.5em;
@@ -149,6 +161,18 @@ a, a:visited {
     position: relative;
     width: 500px;
     height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+    .compass-img {
+        width: 400px;
+    }
+    .result {
+        margin: auto;
+        position: relative;
+        width: 400px;
+        height: 400px;
+    }
 }
 
 .red-dot {
