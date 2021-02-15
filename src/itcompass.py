@@ -4,7 +4,7 @@ from random import randint
 
 
 app = Flask(__name__)
-app.secret_key = b'\x03`\xc1S\x15\xcei\x17\xebI\xa8\x9a+\x8c\xa01v\x1f\xb6Q\x7f\xc5\xdb\xbb2(\x06\x9bC/\xedU'
+app.secret_key = b'YOU SHOULD NOT SEE THIS'
 app.config['debug'] = False
 
 questions_file = open('questions.json', 'r')

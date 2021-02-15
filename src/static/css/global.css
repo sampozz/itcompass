@@ -16,9 +16,9 @@ html, body {
 .container {
     background-color: white;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    width: 60%;
     position: relative;
-    min-width: 500px;
+    width: 98%;
+    max-width: 1000px;
     height: auto;
     margin: auto;
     padding: 3em;
@@ -79,8 +79,7 @@ a, a:visited {
     height: 1em;
     width: 1em;
     border-radius: 50%;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+    margin: 0 0.5em 0.5em 0.5em;
     display: inline-block;
 }
 
@@ -89,13 +88,12 @@ a, a:visited {
     height: 1em;
     width: 1em;
     border-radius: 50%;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+    margin: 0 0.5em 0.5em 0.5em;
     display: inline-block;
 }
 
 .question-text {
-    margin: 2em 0 2em 0;
+    margin: 0.5em 2em 2em 2em;
 }
 
 .cntr {
